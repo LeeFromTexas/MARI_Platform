@@ -29,11 +29,7 @@ setwd ("C:/Users/leetr/OneDrive/Desktop/2023 Morgan Analytics/Modeling")
 #install.packages("aws.s3")
 library(aws.s3)
 
-Sys.setenv(
-   "AWS_ACCESS_KEY_ID" = "AKIAX7SO2J6NVJKG2SBE",
-  "AWS_SECRET_ACCESS_KEY" = "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",
-  "AWS_DEFAULT_REGION" = "us-east-1"
-)
+#S3 environment Variables here
 
 bucketlist()
 
