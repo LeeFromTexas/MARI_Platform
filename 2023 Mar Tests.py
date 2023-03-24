@@ -1,13 +1,8 @@
- #Sys.setenv(
-# "AWS_ACCESS_KEY_ID" = "AKIAX7SO2J6NVJKG2SBE",
-# "AWS_SECRET_ACCESS_KEY" = "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",
-# "AWS_DEFAULT_REGION" = "us-east-1"
-#)
+
 import boto3
-s3 = boto3.client('s3', aws_access_key_id="AKIAX7SO2J6NVJKG2SBE" ,␣
-,→aws_secret_access_key="yhLvbWwtiPI7Li5Ca6ykRwVauFLSvgQaGhs5cyT5")
-#s3.download_file('mikemorgananalyticsbucket','Mar2023_Subset.
-,→rds','Mar2023_subset.rds')
+
+#use S3 access keys
+
 #s3.list_buckets()
 bucket_name = 'mikemorgananalyticsbucket'
 file_name = 'Mar2023_Subset.csv'
